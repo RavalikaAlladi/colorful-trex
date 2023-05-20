@@ -95,8 +95,8 @@ function draw() {
     ground.velocityX = -(6 + 3*score/100);
     
     if((touches.length > 0 || keyDown("SPACE")) && trex.y  >= height-120) {
-      // first tap-> length= 2 > 0
-       // second tap-> length= 2 > 0
+      // first tap-> length= 1 > 0
+       // second tap-> length= 1 > 0
       jumpSound.play( )
       trex.velocityY = -10;
        touches = []; // length = 0
